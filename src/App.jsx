@@ -44,7 +44,7 @@ function App() {
                     totalFeedback={totalFeedback}
                     positiveFeedback={positiveFeedback}
                 />
-            ) : <p>No feedback yet</p>
+            ) : (<Notification message="No feedback given yet" />)
             }
         </>
     )
